@@ -2,11 +2,11 @@ syntax on
 set nocompatible
 set history=50
 set number
-inoremap ( ()
-inoremap { {}
-inoremap [ []
-inoremap " ""
-inoremap < <>
+inoremap ( ()<ESC>i
+inoremap { {}<ESC>i
+inoremap [ []<ESC>i
+inoremap " ""<ESC>i
+inoremap < <><ESC>i
 set tabstop=4
 set shiftwidth=4
 set expandtab
