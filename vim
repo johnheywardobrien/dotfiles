@@ -3,10 +3,10 @@ set nocompatible
 set history=50
 set number
 inoremap ( ()
-inoremap { {}<Esc>i
-inoremap [ []<Esc>i
-inoremap " ""<Esc>i
-inoremap < <><Esc>i
+inoremap { {}
+inoremap [ []
+inoremap " ""
+inoremap < <>
 set tabstop=4
 set shiftwidth=4
 set expandtab
